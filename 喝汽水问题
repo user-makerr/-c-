@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	int money = 20;
+	int count = 0;
+	while (money--)
+	{
+		count++;
+		if (count % 2 == 0)
+		{
+			money++;
+		}
+	}
+	printf("%d\n", count);
+	return 0;
+}
